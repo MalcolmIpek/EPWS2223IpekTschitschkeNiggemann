@@ -58,6 +58,7 @@ https://www.leifiphysik.de/nordrhein-westfalen
 - Detallierte Konkurrenzanalyse
 - Concept Art
 - Aufbau des Games
+  - Konzept
 
 ## Deliverables Audit 2
 - 
