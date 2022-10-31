@@ -57,6 +57,7 @@ https://www.leifiphysik.de/nordrhein-westfalen
 - Domänenmodell
 - Detallierte Konkurrenzanalyse
 - Concept Art
+- Aufbau des Games
 
 ## Deliverables Audit 2
 - 
