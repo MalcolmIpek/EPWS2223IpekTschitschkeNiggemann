@@ -16,8 +16,7 @@ Unsere Konkurrenzanalyse hat ergeben, dass viele Simulatoren für physikalische 
 Inspiration für dieses Projekt war hierbaei das Spiel "Turing Complete", bei dem man spielerisch lernt, wie ein Computer funktioniert [Quelle 5].
 
 
-#Quellen
-
+# Quellen
 1: https://www.yes-deutschland.de/youth-in-europe-study/auswertungen/erste-auswertungen/lieblingsfaecherniederlande/88.html#:~:text=Sowohl%20Sprachen%20als%20auch%20Mathematik,Stelle%20bei%20den%20deutschen%20Sch%C3%BClern.
 
 2: https://www.mintuitiv.de/blogs/mint/die-beliebtesten-mint-faecher-in-der-schule
