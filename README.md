@@ -7,4 +7,6 @@ Unser Pojekt greift hier explizit das Fach Physik auf, da dies ein Fach ist, wel
 
 Unser Projekt beschäftig sich daher mit der Frage, wie man Physikalische Gesetze und Formlen einfacher und vor allem interessanter an die Schüler heranbringen kann, sodass vielleicht das Ineteresse an dem Fach Physik steigt.
 
-Wir haben uns dazu entschieden, 
+Wir haben uns dazu entschieden, das Projekt als Spiel umzusetzen und den Schülern den Stoff somit auf einem interaktiven und spielerischen Weg zu vermitteln. Es ist wichtig zu bemerken, dass es sich bei dem Spiel nicht um eine Simulation handelt, bei dem die Schüler nur an einzelnen Reglern rumspielen können und dann sehen, welche Auswirkung die Veränderung auf die Szene hat. Es soll ein Soiel geschaffen werden, bei dem die Schüler mit Hilfe der Gesetze der Physik Rätsel lösen und am Ende ein besseres Verständnis für die Formlen und gesetze haben.
+
+Unsere Konkurrenzanalyse hat ergeben, dass viele Simulatoren für physikalische Vorrgänge gibt. Diese haben aber den Nachteil, dass sie sich in den meisten Fällen auf ein Physikalisches Problem beschränken und zu anderen keine Anreize gesetzt werden sich weiter mit dem Thema zu beschäftigen.
