@@ -47,3 +47,17 @@ https://www.handelsblatt.com/politik/deutschland/digitalisierung-in-schulen-hemm
 Themenbereiche Physik:
 
 https://www.leifiphysik.de/nordrhein-westfalen
+
+#Namen
+
+Jonas Niggemann
+Christian Tschitschke
+Malcolm Ipek
+
+# Projektplan
+## Deliverables Audit 1
+
+- Domänenmodell
+- Detallierte Konkurrenzanalyse
+- Concept Art
+- 
