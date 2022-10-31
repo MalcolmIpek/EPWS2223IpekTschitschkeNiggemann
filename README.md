@@ -48,15 +48,13 @@ Themenbereiche Physik:
 
 https://www.leifiphysik.de/nordrhein-westfalen
 
-#Namen
-
-Jonas Niggemann
-Christian Tschitschke
-Malcolm Ipek
+# Namen
+- Jonas Niggemann
+- Christian Tschitschke
+- Malcolm Ipek
 
 # Projektplan
 ## Deliverables Audit 1
-
 - Domänenmodell
 - Detallierte Konkurrenzanalyse
 - Concept Art
