@@ -11,7 +11,9 @@ Wir haben uns dazu entschieden, das Projekt als Spiel umzusetzen und den Schüle
 
 Unsere Idee sieht dabei vor, dass es Grundlegende Level gibt, die einem einzelne Gesetze spielerisch und mit Rätseln beibringt, die Dann in späteren komplizierteren Leveln aufgegriffen werden, sodass der Schüler mehrere Gesetze aus den vorherigen Leveln vereinen muss, um ans Ziel zu kommen. Um die Motivation der Schüler hochzuhalten, sich mit dem Spiel zu beschäftigen wird es Sammelobjekte geben (z.B. eine Formelsammlung, die vervollständigt werden kann), die der Schüler sammeln kann.
 
-Unsere Konkurrenzanalyse hat ergeben, dass viele Simulatoren für physikalische Vorrgänge gibt. Diese haben aber den Nachteil, dass sie sich in den meisten Fällen auf ein Physikalisches Problem beschränken und zu anderen keine Anreize gesetzt werden sich weiter mit dem Thema zu beschäftigen [Quellen ].
+Unsere Konkurrenzanalyse hat ergeben, dass viele Simulatoren für physikalische Vorrgänge gibt. Diese haben aber den Nachteil, dass sie sich in den meisten Fällen auf ein Physikalisches Problem beschränken und zu anderen keine Anreize gesetzt werden sich weiter mit dem Thema zu beschäftigen [Quellen 3, 4] (Beispiele). Viele Spiele, die es gibt benutzen zwar die Gesetze der Physik, bringen den Schülern aber nicht bei, warum das passiert, was sie da gerade machen (Poly Bridge, Cut the Rope, etc.).
+
+Inspiration für dieses Projekt war hierbaei das Spiel "Turing Complete", bei dem man spielerisch lernt, wie ein Computer funktioniert [Quelle 5].
 
 
 #Quellen
@@ -21,6 +23,10 @@ Unsere Konkurrenzanalyse hat ergeben, dass viele Simulatoren für physikalische 
 2: https://www.mintuitiv.de/blogs/mint/die-beliebtesten-mint-faecher-in-der-schule
 
 3: https://phet.colorado.edu/en/simulations/filter?subjects=physics&type=html,prototype
+
+4: https://www.commonsense.org/education/top-picks/great-games-for-physics
+
+5: https://store.steampowered.com/app/1444480/Turing_Complete/
 
 PC-Spiele im Unterricht:
 
