@@ -23,13 +23,19 @@ Unsere Konkurrenzanalyse hat ergeben, dass viele Simulatoren für physikalische 
 3: https://phet.colorado.edu/en/simulations/filter?subjects=physics&type=html,prototype
 
 PC-Spiele im Unterricht:
+
 https://www.game.de/publikationen/computerspiele-im-unterricht-warum-games-in-die-schule-gehoeren/
+
 https://www.bpb.de/themen/kultur/digitale-spiele/504550/lernen-mit-digitalen-spielen-im-unterricht/
+
 https://repository.isls.org/bitstream/1/3991/1/513-520.pdf
+
 https://iopscience.iop.org/article/10.1088/0031-9120/48/4/431/meta?casa_token=WUggkBIq9BQAAAAA:-PoTcAmeEmL1RjhIWsQtHE-WQlNRrIbaCRtEttfr9LB4Lich2p4F-0d_eFlAr6dbx0GefrlZa3tk0g
 
 Digitalisierung von Schulen:
+
 https://www.handelsblatt.com/politik/deutschland/digitalisierung-in-schulen-hemmnis-buerokratie-was-schulen-daran-hindert-digitaler-zu-werden/28248496.html
 
 Themenbereiche Physik:
+
 https://www.leifiphysik.de/nordrhein-westfalen
