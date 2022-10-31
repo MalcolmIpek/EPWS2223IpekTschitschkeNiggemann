@@ -14,4 +14,6 @@ Unsere Idee sieht dabei vor, dass es Grundlegende Level gibt, die einem einzelne
 Unsere Konkurrenzanalyse hat ergeben, dass viele Simulatoren für physikalische Vorrgänge gibt. Diese haben aber den Nachteil, dass sie sich in den meisten Fällen auf ein Physikalisches Problem beschränken und zu anderen keine Anreize gesetzt werden sich weiter mit dem Thema zu beschäftigen [Quellen ].
 
 
-##Quellen
+#Quellen
+1: 
+2: https://www.mintuitiv.de/blogs/mint/die-beliebtesten-mint-faecher-in-der-schule
