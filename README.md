@@ -54,7 +54,7 @@ https://www.leifiphysik.de/nordrhein-westfalen
 
 # Projektplan
 ## Deliverables Audit 1
-- Problemdpmäne
+- Problemdomäne
 - Domänenmodell
 - Detallierte Konkurrenzanalyse
 - Art Vision (Collage)
