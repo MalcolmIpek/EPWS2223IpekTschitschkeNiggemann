@@ -65,7 +65,9 @@ https://www.leifiphysik.de/nordrhein-westfalen
 - Entwicklungsumgebung und Tools
 
 ## Deliverables Audit 2
-- 
+- Art PoC
+- Puzzle PoC
+- Physics PoC
 ## Deliverables Audit 3
 - 
 ## Deliverables Audit 4
