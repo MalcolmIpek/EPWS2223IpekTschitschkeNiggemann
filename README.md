@@ -54,11 +54,15 @@ https://www.leifiphysik.de/nordrhein-westfalen
 
 # Projektplan
 ## Deliverables Audit 1
+- Problemdpmäne
 - Domänenmodell
 - Detallierte Konkurrenzanalyse
 - Art Vision (Collage)
 - Aufbau des Games
   - Konzept
+- Kernfragen beantworten
+- Zielgruppe
+- Entwicklungsumgebung und Tools
 
 ## Deliverables Audit 2
 - 
