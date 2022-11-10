@@ -56,7 +56,7 @@ https://www.leifiphysik.de/nordrhein-westfalen
 ## Deliverables Audit 1
 - Domänenmodell
 - Detallierte Konkurrenzanalyse
-- Concept Art
+- Concept Art / Art Vision (Collage)
 - Aufbau des Games
   - Konzept
 
