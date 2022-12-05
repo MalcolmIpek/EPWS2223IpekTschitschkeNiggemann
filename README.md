@@ -16,6 +16,28 @@ Unsere Konkurrenzanalyse hat ergeben, dass es viele Simulatoren für physikalisc
 Inspiration für dieses Projekt war hierbei das Spiel "Turing Complete", bei dem man spielerisch lernt, wie ein Computer funktioniert [Quelle 5].
 
 
+Überschneidung mit der Physiknote:
+
+
+Es wird Möglichkeiten geben, ein Level in einem Durchlauf zu spielen, bei der besondere Geschicklichkeit gefragt wird, beispielsweise ein Rätsel ohne Fehleranläufe oder in einer sehr kurzen Zeit zu lösen. 
+Eastereggs wird es auch geben, die nicht leicht zu finden sein werden.
+
+Diese Dinge sind nicht erforderlich, um das Spiel „durchzuspielen“, jedoch stellen sie optionale Artefakte dar, die den Ehrgeiz und die Geschicklichkeit des jeweiligen Spieler zeigen würden. 
+Und genau aus diesem Grund haben wir uns überlegt, dass beim Erreichen dieser „Extras“ es sich auch auf die Physiknote abfärbt, indem es beispielsweise einen positiven Einfluss auf den mündlichen Teil der Endnote hat.
+
+Das selbe Prinzip hatte ich persönlich damals auch in der Schule mit einem Mathelernportal, bei dem es erst so richtig bei mir anfing, dass ich Zeit in dieses Fach gesteckt hatte. Und dieses Spiel hatte mir damals auch tatsächlich die Note gerettet, da ich zwischen einer 4 und 5 stand.
+
+
+Ein weiterer Faktor, welcher direkt nichts mit dem ersten zutun hat, ist die intrinsische Motivation.
+
+MINT-Schulfächer (darunter auch Physik) sind eher von Jungs dominiert. Viele Frauen wählen MINT-Schulfächer ab (8), da sie in Sprachen besser abschneiden.
+
+Sinnvoll wäre es, eine Art Rangliste zu führen, bei denen die Schüler jederzeit ihre Punktezahl untereinander vergleichen können. 
+Da unsere Zielgruppe 11-14 Jahre alt ist und pubertierende Jungs im Freundeskreis untereinander oft ein starkes Konkurrenzdenken haben (9), könnte dies erheblich zur intrinsischen Motivation beitragen.
+
+So war es damals bei mir auch, ich habe immer zwischen Rang 1-3 in der Schulklasse gependelt und wollte unbedingt der Beste sein.
+
+
 # Quellen
 1: https://www.yes-deutschland.de/youth-in-europe-study/auswertungen/erste-auswertungen/lieblingsfaecherniederlande/88.html#:~:text=Sowohl%20Sprachen%20als%20auch%20Mathematik,Stelle%20bei%20den%20deutschen%20Sch%C3%BClern.
 
@@ -48,39 +70,19 @@ Themenbereiche Physik:
 https://www.leifiphysik.de/nordrhein-westfalen
 
 
-Überschneidung mit der Physiknote:
+Nutzungskonzext/Pädagogik:
+
+https://www.uni-bamberg.de/fileadmin/uni/verwaltung/presse/045-UNI-PUBLIKATIONEN/uni.vers/2020-forschung/07-mint.pdf (8)
+
+https://www.pedocs.de/volltexte/2017/12646/pdf/SZBW_2015_2_Aeschlimann_Herzog_Makarova_Praeferenzen_von_Gymnasiastinnen.pdf (8)
+
+https://hbr.org/2019/11/research-how-men-and-women-view-competition-differently (9)
 
 
-Es wird Möglichkeiten geben, ein Level in einem Durchlauf zu spielen, bei der besondere Geschicklichkeit gefragt wird, beispielsweise ein Rätsel ohne Fehleranläufe oder in einer sehr kurzen Zeit zu lösen. 
-Eastereggs wird es auch geben, die nicht leicht zu finden sein werden.
-
-Diese Dinge sind nicht erforderlich, um das Spiel „durchzuspielen“, jedoch stellen sie optionale Artefakte dar, die den Ehrgeiz und die Geschicklichkeit des jeweiligen Spieler zeigen würden. 
-Und genau aus diesem Grund haben wir uns überlegt, dass beim Erreichen dieser „Extras“ es sich auch auf die Physiknote abfärbt, indem es beispielsweise einen positiven Einfluss auf den mündlichen Teil der Endnote hat.
-
-Das selbe Prinzip hatte ich persönlich damals auch in der Schule mit einem Mathelernportal, bei dem es erst so richtig bei mir anfing, dass ich Zeit in dieses Fach gesteckt hatte. Und dieses Spiel hatte mir damals auch tatsächlich die Note gerettet, da ich zwischen einer 4 und 5 stand.
-
-
-Ein weiterer Faktor, welcher direkt nichts mit dem ersten zutun hat, ist die intrinsische Motivation.
-
-MINT-Schulfächer (darunter auch Physik) sind eher von Jungs dominiert. Viele Frauen wählen MINT-Schulfächer ab (2), da sie in Sprachen besser abschneiden.
-
-Sinnvoll wäre es, eine Art Rangliste zu führen, bei denen die Schüler jederzeit ihre Punktezahl untereinander vergleichen können. 
-Da unsere Zielgruppe 11-14 Jahre alt ist und pubertierende Jungs im Freundeskreis untereinander oft ein starkes Konkurrenzdenken haben (1), könnte dies erheblich zur intrinsischen Motivation beitragen.
-
-So war es damals bei mir auch, ich habe immer zwischen Rang 1-3 in der Schulklasse gependelt und wollte unbedingt der Beste sein.
+https://journals.sagepub.com/doi/abs/10.2466/pms.1995.81.3f.1139 (9)
 
 
 
-https://hbr.org/2019/11/research-how-men-and-women-view-competition-differently (1)
-
-
-https://journals.sagepub.com/doi/abs/10.2466/pms.1995.81.3f.1139 (1)
-
-
-
-https://www.uni-bamberg.de/fileadmin/uni/verwaltung/presse/045-UNI-PUBLIKATIONEN/uni.vers/2020-forschung/07-mint.pdf (2)
-
-https://www.pedocs.de/volltexte/2017/12646/pdf/SZBW_2015_2_Aeschlimann_Herzog_Makarova_Praeferenzen_von_Gymnasiastinnen.pdf (2)
 
 # Namen
 - Jonas Niggemann
