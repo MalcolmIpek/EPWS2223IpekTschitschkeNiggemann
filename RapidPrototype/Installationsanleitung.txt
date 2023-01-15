@@ -1,2 +1,5 @@
 Um das spiel zu installieren muss der Ordner EscapeFormularuntergeladen werden und entpackt werden.
 Um das Spiel zu starten reicht es die Anwendung EscapeFormular auszuführen.
+
+Mac: Terminal öffnen, zum Dateipfad vom Game navigieren, danach chmod +x EscapeFormula_Mac.app/Documents/MacOS/'Escape Formular'
+aushführen und dann im MacOS Ordner Escape Formular ausführen
