@@ -1,0 +1,2 @@
+Um das spiel zu installieren muss der Ordner RapidPrototype runtergeladen werden und entpackt werden.
+Um das Spiel zu starten reicht es die Anwendung EscapeFormular auszuführen.
