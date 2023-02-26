@@ -29,6 +29,8 @@ public class LineController : MonoBehaviour
         lineRenderer.SetPosition(0, startPos);
         lineRenderer.SetPosition(1, endPos);
 
+        ResetPositions();
+
         SetCableTexture();
     }
 
@@ -45,12 +47,21 @@ public class LineController : MonoBehaviour
         input = _input;
     }
 
+    public void ResetPositions()
+    {
+        if(input != null && output != null)
+        {
+            SetPositionOne(input.gameObject.transform.position + new Vector3(0,0,-.5f));
+            SetPositionTwo(output.gameObject.transform.position + new Vector3(0, 0, -.5f));            
+        }
+    }
+
     public void SetCableTexture()
     {
         if(output!= null)
         {
-            if(output.component.EnergyOutputV == 0) lineRenderer.material.mainTexture = lowVTexture;
-            else if(output.component.EnergyOutputV <= 150) lineRenderer.material.mainTexture = midVTexture;
+            if (output.component.I == 0) lineRenderer.material.mainTexture = lowVTexture;
+            else if (output.component.I <= 5) lineRenderer.material.mainTexture = midVTexture;
             else lineRenderer.material.mainTexture = highVTexture;
         }
     }

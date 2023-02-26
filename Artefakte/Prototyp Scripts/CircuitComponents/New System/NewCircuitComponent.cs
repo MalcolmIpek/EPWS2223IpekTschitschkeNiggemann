@@ -1,70 +1,95 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class NewCircuitComponent : MonoBehaviour
 {
-    public float testoutput;
+    public float globalCurrent;
+    public ComponentType type;
 
-    //public EnergyIOComponent input;
-    //public EnergyIOComponent output;
     public Item item;
 
     public NewCircuitComponent Input;
 
     public bool isInInventory = true;
 
-    [Range(0.01f,1000)]
-    public float resistanceO = 1;
 
     public bool switchOutputEnergy = true;
 
     public bool outputEnergy = false;
-    public float energyProducedV = 0f;
-    public float EnergyProduced
-    {
-        get { return energyProducedV; }
-        set { energyProducedV = value; }
-    }
 
-    public float EnergyOutputV
+    public float producedEnergy = 0f;
+    public float LocalVoltage { get { if (producedEnergy != 0) return producedEnergy; else return U * (LocalResistance / R); } }
+    public float U
     {
         get
         {
-            if(switchOutputEnergy) 
-                if(outputEnergy) 
-                    return (EnergyInputV(this, 0f) * resistanceO + energyProducedV) / resistanceO;
-            return 0f;
+            if (Input == null) return 0f;
+
+            float sum = 0f;
+            NewCircuitComponent currentComponent = this;
+
+            do
+            {
+                sum += currentComponent.producedEnergy;
+                currentComponent = currentComponent.Input;
+            } while (currentComponent != this && currentComponent.Input != null);
+            
+            if(currentComponent == null) return 0f;
+
+            if (switchOutputEnergy == false) return 0f;
+            
+            return sum;
         }
     }
-    public float EnergyInputV(Component originalInput, float totalenergy)
+    [Range(0.0001f, 1000)]
+    public float LocalResistance = 0.01f;
+    public float R
     {
-        if (Input == null) return 0f;
-        else if (Input.Input == originalInput) return Input.energyProducedV;
-        else return Input.EnergyInputV(originalInput, totalenergy * resistanceO + energyProducedV);
-    }
-
-    public bool CheckCircuit()
-    {
-        List<NewCircuitComponent> visitedObjects = new List<NewCircuitComponent>();
-
-        NewCircuitComponent currentObject = this;
-
-        while (!visitedObjects.Contains(currentObject))
+        get
         {
-            visitedObjects.Add(currentObject);
+            if (Input == null) return 0f;
 
-            currentObject = currentObject.Input;
+            float sum = 0f;
+            NewCircuitComponent currentComponent = this;
 
-            if (currentObject == null) { foreach (var comp in visitedObjects) comp.outputEnergy = false;  return false; }
+            do
+            {
+                sum += currentComponent.LocalResistance;
+                currentComponent = currentComponent.Input;
+            } while (currentComponent != this && currentComponent.Input != null);
+
+            if (currentComponent == null) return 0f;
+
+            return sum;
+        }
+    }
+    public float LocalElectricCurrent { get { return LocalVoltage / LocalResistance; } }
+    public float I { get { return U / R; } }
+
+    public bool IsCircuit()
+    {
+        NewCircuitComponent currentComponent = this;
+
+        if(Input == null) return false;
+
+        while (currentComponent.Input != this && currentComponent.Input != null)
+        {
+            currentComponent = currentComponent.Input;
         }
 
-        foreach (var comp in visitedObjects) comp.outputEnergy = true;
+        currentComponent = currentComponent.Input;
 
-        return true;
+        if(currentComponent == null) return false;
+
+        if (currentComponent == this) return true;
+
+        return false;
     }
-
     private void Update()
     {
-        testoutput = EnergyOutputV;
+        globalCurrent = I;
     }
 }
+
+public enum ComponentType { ENERGYSOURCE, RESISTANCE, POWERUSER, SWITCH}

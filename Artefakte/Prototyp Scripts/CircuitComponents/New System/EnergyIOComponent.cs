@@ -41,13 +41,10 @@ public class EnergyIOComponent : MonoBehaviour, IBeginDragHandler, IEndDragHandl
                 else
                     newLine.input.component.Input = null;
 
-                newLine.input.component.CheckCircuit();
-                newLine.output.component.CheckCircuit();
-
                 Destroy(newLine.gameObject);
                 newLine = Instantiate(lineprefab);
                 newLine.SetInput(this);
-                newLine.transform.SetParent(eventData.pointerCurrentRaycast.gameObject.transform);
+                newLine.transform.SetParent(GameObject.Find("Fusebox UI Element").transform);
                 newLine.SetPositionOne(newLine.cam.ScreenToWorldPoint(Input.mousePosition) + new Vector3(0, 0, 8.5f));
 
                 if (type == IOType.INPUT)
@@ -90,14 +87,10 @@ public class EnergyIOComponent : MonoBehaviour, IBeginDragHandler, IEndDragHandl
                     newLine.input = eventData.pointerCurrentRaycast.gameObject.GetComponent<EnergyIOComponent>();
                 else
                     newLine.output = eventData.pointerCurrentRaycast.gameObject.GetComponent<EnergyIOComponent>();
-
-                eventData.pointerCurrentRaycast.gameObject.GetComponent<EnergyIOComponent>().component.CheckCircuit();
-                component.CheckCircuit();
             }
             else
             {
                 Destroy(newLine.gameObject);
-                component.CheckCircuit();
             }
         }
     }
